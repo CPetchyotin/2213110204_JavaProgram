@@ -1,4 +1,4 @@
 StudentID  : 2213110204
 Fullname   : Chonnanut Petchyotin
 AKA        : CPetchyotin	
-ClassDetail: Control Statement & Confirm Dialog
+ClassDetail:  String Methods and Defined Method
