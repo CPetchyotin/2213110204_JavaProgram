@@ -7,10 +7,11 @@ public class Lab404 {
 		System.out.print("Text: ");
 		String text = scan.nextLine();
 		String retext ="";
-		for(int i=text.length();i>=0;i--) {
+		int lengh = text.length();
+		for(int i=lengh-1;i>=0;i--) {
 			retext = retext + text.charAt(i);
 		}
-		if(text.equals(retext))
+		if(text.equalsIgnoreCase(retext))
 		{
 			System.out.println("It is a palindrome");
 		}
