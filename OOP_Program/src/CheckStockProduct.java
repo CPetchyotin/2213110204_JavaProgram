@@ -13,7 +13,7 @@ public class CheckStockProduct {
 		System.out.println();
 		Product[] productList = new Product[hmpl];
 		for (int i = 0; i < productList.length; i++) {
-			productList[i] = new Product();
+			productList[i] = new Product(); 
 			System.out.print("Input product  Id    : ");
 			productList[i].setId(sc.next());
 			System.out.print("Input product  Unit  : ");

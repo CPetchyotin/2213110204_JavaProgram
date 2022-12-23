@@ -10,7 +10,7 @@ public class Product {
     }
     public String getId() {
         return id;
-    }
+    } 
     public void setUnit (int UNIT) {
         unit = UNIT;
     }
