@@ -28,7 +28,7 @@ public class CheckStockProduct {
 		System.out.println("List of product in 'LOW' status.");
 		System.out.println("------------------------------------------------------------");
 		for (Product show : productList) {
-			if(show.getUnit()<5) {
+			if(show.Check(show.getUnit()).equalsIgnoreCase("low")) {
 				System.out.println(">> "+show.getId()+" has "+ show.getUnit()+ " units");
 			}
 		}
@@ -36,7 +36,7 @@ public class CheckStockProduct {
 		System.out.println("List of product in 'NORMAL' status.");
 		System.out.println("------------------------------------------------------------");
 		for (Product show : productList) {
-			if(show.getUnit()>=5&&show.getUnit()<=50) {
+			if(show.Check(show.getUnit()).equalsIgnoreCase("normal")) {
 				System.out.println(">> "+show.getId()+" has "+ show.getUnit()+ " units");
 			}
 		}
@@ -44,7 +44,7 @@ public class CheckStockProduct {
 		System.out.println("List of product in 'HIGH' status.");
 		System.out.println("------------------------------------------------------------");
 		for (Product show : productList) {
-			if(show.getUnit()>50) {
+			if(show.Check(show.getUnit()).equalsIgnoreCase("high")) {
 				System.out.println(">> "+show.getId()+" has "+ show.getUnit()+ " units");
 			}
 		}
