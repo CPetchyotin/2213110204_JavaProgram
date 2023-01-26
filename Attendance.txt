@@ -2,4 +2,4 @@ Date	   : 19-Jan-2023
 StudentID  : 2213110204
 Fullname   : Chonnanut Petchyotin
 AKA        : CPetchyotin	
-ClassDetail: Encapsulation
+ClassDetail: Composition and Inheritance
