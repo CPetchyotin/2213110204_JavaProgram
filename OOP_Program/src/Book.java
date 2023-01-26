@@ -31,12 +31,12 @@ public class Book {
 	}
 
 	public int getTotalYear() {
-		return Year.now().getValue()-publishyear;
+		return Year.now().getValue() - publishyear;
 	}
 
 	public String toString() {
-		return "Title: "+getTitle()+" published for "+getTotalYear()
-		+" year"+" ("+getPrice()+" baht)"+".";
+		return "Title: " + getTitle() + " published for " + getTotalYear() + " year" + " (" + getPrice() + " baht)"
+				+ ".";
 	}
 
 }
