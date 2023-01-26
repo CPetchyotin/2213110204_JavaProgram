@@ -13,12 +13,12 @@ public class BookDemo2 {
 			page = Integer.parseInt(JOptionPane.showInputDialog("Input book page,again:"));
 			book.setPage(page);
 			JOptionPane.showMessageDialog(null, "Book Title : "+book.getTitle()+"\nAuthor name : "+book.getAuthor().getName()
-					+"("+book.getPage()+" page)"+"\nAuthor e-mail : "+book.getAuthor().getEmail());
+					+" ("+book.getPage()+" page)"+"\nAuthor e-mail : "+book.getAuthor().getEmail());
 		}
 		else {
 			book.setPage(page);
 			JOptionPane.showMessageDialog(null, "Book Title : "+book.getTitle()+"\nAuthor name : "+book.getAuthor().getName()
-					+"("+book.getPage()+" page)"+"\nAuthor e-mail : "+book.getAuthor().getEmail());
+					+" ("+book.getPage()+" page)"+"\nAuthor e-mail : "+book.getAuthor().getEmail());
 		}
 		
 	}
