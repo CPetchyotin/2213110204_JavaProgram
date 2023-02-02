@@ -23,6 +23,6 @@ public String getGenderName() {
 	return (gender=='M')? "Male":(gender =='F')? "Female":"";
 }
 public String toString() {
-	return " "+name+"("+email+";"+getGenderName()+")";
+	return name+" ("+email+";"+getGenderName()+")";
 }
 }
