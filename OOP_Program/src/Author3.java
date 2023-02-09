@@ -1,9 +1,7 @@
 
-public class Author3 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+public interface Author3 {
+public abstract String getLastName();
+public abstract String getFirstName();
+public abstract boolean checkEmail();
+	
 }
